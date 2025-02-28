@@ -1,0 +1,17 @@
+<div class="container noselect">
+    <div class="canvas">
+      <!-- Generate trackers dynamically using *ngFor -->
+      <div *ngFor="let num of trackers" [class]="'tracker tr-' + num" [attr.key]="num"></div>
+  
+      <div id="card">
+        <p id="prompt">HOVER OVER :D</p>
+        <div class="title">
+          Hi Udhith<br />✨✨
+        </div>
+        <div class="subtitle">
+          <!-- Subtitle content goes here -->
+        </div>
+      </div>
+    </div>
+  </div>
+  
